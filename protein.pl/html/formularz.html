@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Czcionka-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+    <!--Java script-->
+    <script
+        src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+        crossorigin="anonymous">
+    </script>
+    <script src="../javascript/show.js"></script>
+    <script src="../javascript/inputs.js"></script>
+    <!--Style-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/formularz.css">
+
+    <title>PROTEIN.PL</title>
+</head>
+<body>
+    <div id="nav">
+        <div class="logo-nav">
+            <img src="../images/dzik_logo.png">
+        </div>
+        <div class="logo-nav-text">
+            <span style="margin-right: 7px;" class="cursive"><span style="color: #EBB37E">PRO</span>TEIN.PL</span>
+        </div>
+        <div class="nav-item-container">
+            <a href="index.html">
+                <div class="nav-item">
+                    Start
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+            <a>
+                <div class="nav-item">
+                    O nas
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+            <a href="galeria.html">
+                <div class="nav-item">
+                    Galeria
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+            <a href="formularz.html">
+                <div class="nav-item">Formularz
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+            <a>
+                <div class="nav-item">
+                    Kontakt
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <span id="gora-uchwyt"></span>
+
+    <div id="nav-background"></div>
+    <div style="height: 80px; width: 100%;"></div>
+
+    <!--Twoje wyniki-->
+    <form id="formularz">
+        <p>Twoje wyniki [KG]</p>
+        <input type="text" value="" placeholder="Ława" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty(); this.placeholder='Ława'">
+        <input type="text" value="" placeholder="Przysiad" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty();this.placeholder='Przysiad'">
+        <input type="text" value="" placeholder="Martwy" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty();this.placeholder='Martwy'">
+        <p>Dane Biometryczne</p>
+        <!--Imie Nazwisko-->
+        <input type="text" value="" placeholder="Imię" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty();this.placeholder='Imię'">
+        <input type="text" value="" placeholder="Nazwisko" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty();this.placeholder='Nazwisko'">
+        <!--Plec-->
+        <input type="radio" name="plec" value="kobieta"> Kobieta
+        <input type="radio" name="plec" value="mezczyzna"> Mężczyzna
+        <!--wzrost waga-->
+        <input type="text" value="" placeholder="Wzrost" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty();this.placeholder='Wzrost'">
+        <input type="text" value="" placeholder="Waga" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty();this.placeholder='Waga'">
+        <input type="text" value="" placeholder="Wiek" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty();this.placeholder='Wiek'">
+        <input type="text" value="" placeholder="E-mail" class="box-shadow" onfocus="this.placeholder=''" onblur="isEmpty();this.placeholder='E-mail'">
+
+        <input type="submit" class="box-shadow">
+        <input type="reset" class="box-shadow">
+    </form>
+
+    <div id="footer">
+        <span class="cursive">Paradoksalnie to głównie białko proszę pani </span>
+        <div style="margin-top: 30px;">
+            <img src="../images/dzik_logo.png" style="margin-top: -30px; float: left"> 	
+            <span style="float: left; font-size: 30px" class="cursive"><span style="color: #EBB37E;">PRO</span>TEIN.PL &#174;</span>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <a href="#gora-uchwyt"><button id="go-back-button" class="box-shadow">Powrót</button></a>
+</body>
+</html>

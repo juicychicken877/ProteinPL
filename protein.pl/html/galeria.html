@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Czcionka-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+    <!--Java script-->
+    <script
+        src="https://code.jquery.com/jquery-3.6.3.js"
+        integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+        crossorigin="anonymous">
+    </script>
+    <script src="../javascript/show.js"></script>
+    <script src="../javascript/galery.js"></script>
+    <!--Style-->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/galeria.css">
+    <title>PROTEIN.PL</title>
+</head>
+<body>
+    <div id="nav">
+        <div class="logo-nav">
+            <img src="../images/dzik_logo.png">
+        </div>
+        <div class="logo-nav-text">
+            <span style="margin-right: 7px;" class="cursive"><span style="color: #EBB37E">PRO</span>TEIN.PL</span>
+        </div>
+        <div class="nav-item-container">
+            <a href="index.html">
+                <div class="nav-item">
+                    Start
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+            <a href="firma.html">
+                <div class="nav-item">
+                    O nas
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+            <a href="galeria.html">
+                <div class="nav-item">
+                    Galeria
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+            <a href="formularz.html">
+                <div class="nav-item">Formularz
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+            <a href="kontakt.html">
+                <div class="nav-item">
+                    Kontakt
+                    <div class="nav-item-border">
+
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    
+    <div id="nav-background"></div>
+    <span id="gora-uchwyt"></span>
+    <div style="height: 80px; width: 100%;"></div>
+
+    <div class="galery">
+        <div class="image box-shadow" onclick="show_image('../images/slider/1.jpg')">
+            <img src="../images/slider/1.jpg">
+            <div class="link">Nasz pracownik miesiąca</div>
+        </div>
+        <div class="image box-shadow" onclick="show_image('../images/slider/2.jpg')">
+            <img src="../images/slider/2.jpg">
+            <div class="link">Nasze dowodzenie</div>
+        </div>
+        <div class="image box-shadow" onclick="show_image('../images/slider/3.jpg')">
+            <img src="../images/slider/3.jpg">
+            <div class="link">Nasze białeczko</div>
+        </div>
+        <div class="image box-shadow" onclick="show_image('../images/slider/4.jpg')">
+            <img src="../images/slider/4.jpg">
+            <div class="link">Nasi rywale</div>
+        </div>
+        <div class="image box-shadow" onclick="show_image('../images/slider/5.jpg')">
+            <img src="../images/slider/5.jpg">
+            <div class="link">Nasza ekipa</div>
+        </div>
+        <div class="image box-shadow" onclick="show_image('../images/slider/6.jpg')">
+            <img src="../images/slider/6.jpg">
+            <div class="link">Nasz samochód firmowy</div>
+        </div>
+        <div class="image box-shadow" onclick="show_image('../images/slider/7.jpg')">
+            <img src="../images/slider/7.jpg">
+            <div class="link">Nasza siedziba</div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <span class="cursive">Paradoksalnie to głównie białko proszę pani </span>
+        <div style="margin-top: 30px;">
+            <img src="../images/dzik_logo.png" style="margin-top: -30px; float: left"> 	
+            <span style="float: left; font-size: 30px" class="cursive"><span style="color: #EBB37E;">PRO</span>TEIN.PL &#174;</span>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+
+    <a href="#gora-uchwyt"><button id="go-back-button" class="box-shadow">Powrót</button></a>
+</body>
+</html>

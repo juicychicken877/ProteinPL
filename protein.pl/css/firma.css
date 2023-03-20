@@ -1,0 +1,58 @@
+.firma-header {
+    display: block;
+    font-size: 50px;
+    color: #EBB37E;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+
+.description {
+    width: 60%;
+    color: #eee;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trophie {
+    float: left;
+    width: 20%;
+    height: 200px;
+}
+
+.trophie > img {
+    width: 100%;
+    height: 100%;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+.client-image {
+    width: 100px;
+    height: 100px;
+}
+
+.client-image > img {
+    width: 100%;
+    height: 100%;
+}
+
+.trophie-description {
+    float: left;
+    width: 80%;
+    height: 200px;
+    text-align: center;
+    font-size: 45px;
+    color: #eee;
+}
